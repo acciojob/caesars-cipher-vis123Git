@@ -42,6 +42,8 @@ function rot13(encodedStr) {
 		}
 
 	}
+		decodedArr = decodedArr.join("")
+
   return decodedArr
 }
 
