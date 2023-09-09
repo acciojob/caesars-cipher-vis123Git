@@ -37,6 +37,8 @@ function rot13(encodedStr) {
 	for (let i = 0; i < encodedStr.length; i++) {
 		if(lookup[encodedStr.charAt(i)]){
 					decodedArr.push(lookup[encodedStr.charAt(i)]);
+		}else{
+			decodedArr.push(" ");
 		}
 
 	}
